@@ -1,0 +1,16 @@
+@forward 'reset';
+@use 'variables/index' as *;
+
+body {
+  font-family: $font-primary;
+  font-weight: 400;
+  color: $black;
+  background-color: $white;
+}
+
+.container {
+  width: 100%;
+  max-width: $container-max-width;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+}

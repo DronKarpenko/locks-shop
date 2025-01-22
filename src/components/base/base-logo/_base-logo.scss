@@ -1,0 +1,13 @@
+.base-logo {
+  display: inline-block;
+
+  &_medium {
+    width: 50px;
+    height: 42px;
+  }
+
+  &_large {
+    width: 105px;
+    height: 88px;
+  }
+}
