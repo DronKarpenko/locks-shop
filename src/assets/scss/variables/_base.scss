@@ -1,4 +1,4 @@
 $font-primary: 'SFProText', sans-serif;
 
-$container-max-width: 1272px;
 $container-padding: 16px;
+$container-max-width: calc(1240px + $container-padding * 2);

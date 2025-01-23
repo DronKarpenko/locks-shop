@@ -8,7 +8,22 @@ const routes = [
       {
         path: '/',
         component: () => import('@/pages/index.vue'),
-      }
+      },
+
+      {
+        path: '/catalog',
+        component: () => import('@/pages/catalog/index.vue'),
+      },
+
+      {
+        path: '/wholesale',
+        component: () => import('@/pages/wholesale/index.vue'),
+      },
+
+      {
+        path: '/about',
+        component: () => import('@/pages/about/index.vue'),
+      },
     ]
   }
 ]
